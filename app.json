@@ -1,5 +1,13 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your cameraaaa."
+        }
+      ]
+    ],
     "name": "tareaS5hardware",
     "slug": "tareaS5hardware",
     "version": "1.0.0",
